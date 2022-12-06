@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css"/>
+    <link href="/ext/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-2">Bookhive</h2>
+        <p>Tip: Instead of using this Popup, you can Bookmark pages with Ctrl+Shift+Y</p>
+        <div class="row">
+            <div class="col-2">
+                <button id="home_btn" class="btn btn-primary mb-3">Home</button>
+            </div>
+            <div class="col-auto px-0 ms-3">
+                <button id="bookmark" style="float: right" class="btn btn-outline-success mb-3">Bookmark</button>
+            </div>
+            <div class="col ps-0">
+                <select id="folder_select" style="float: left" class="form-select">
+                    <option value="All-4902384039284039284">Alle Lesezeichen</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="/ext/jquery.min.js"></script>
+    <script src="/scripts/node.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

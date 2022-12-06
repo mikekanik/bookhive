@@ -1,0 +1,190 @@
+/*General*/
+
+a:link {
+    text-decoration: none;
+}
+
+.folder>a {
+    color: black;
+    text-decoration: none;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.arrow {
+    transition: 0.1s;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.drop-button:hover {
+    background-color: gray !important;
+}
+
+
+/*Tags*/
+.tag-btn {
+    background-color: white !important;
+    border-radius: 0 !important;
+    border-color: rgba(0, 0, 0, .125) !important;
+    color: black !important;
+}
+
+.tag-btn:hover {
+    background-color: lightgray !important;
+}
+
+.active-tag {
+    background-color: lightgray !important;
+}
+
+/*Node Hover Effect*/
+
+.lihover {
+    background-color: white;
+}
+
+.lihover:hover {
+    transition: 0.1s;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+/*Show Edit Buttons on Node Hover*/
+
+.bookmark-edit {
+    display: none !important;
+}
+
+.list-group-item:hover>.bookmark-edit {
+    display: block !important;
+}
+
+/*Select and Drag n Drop*/
+
+.selectable .ui-selecting {
+    background: lightgray;
+}
+
+.selectable .ui-selected {
+    background: lightgray;
+}
+
+.ui-droppable-hover {
+    background-color: lightgray !important;
+}
+
+/*Change this*/
+.form-control-dark {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, .1) !important;
+    border-color: rgba(255, 255, 255, .1) !important;
+}
+
+/*Folder Sidebar*/
+
+.folder-list {
+    max-height: 70vh;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .08);
+    overflow-y: auto;
+    text-align: center;
+    position: fixed;
+    margin-top: 200px;
+}
+
+.edit-list {
+    overflow-y: auto;
+    text-align: center;
+    position: fixed;
+    margin-left: 310px;
+    display: block;
+}
+
+.optionModalContent {
+    width: 700px;
+}
+
+#edit-section {
+    display: none;
+}
+
+.bookmark-list {
+    margin-bottom: 146px;
+}
+
+.pointer-hover:hover {
+    cursor: pointer;
+}
+
+.badgeview {
+    color: white;
+    background-color: rgb(83, 138, 255);
+}
+
+li.selected {
+    background:lightgray;
+}
+/*Footer*/
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+/*Dot*/
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+
+/*Display Buttons*/
+.active-display {
+    background-color: lightgray !important;
+}
+
+.display-button:hover {
+    background-color: lightgray !important;
+}
+
+/*Sort Buttons*/
+.active-sort {
+    background-color: lightgray !important;
+}
+
+.sort-button:hover {
+    background-color: lightgray !important;
+    color: black !important;
+}
+
+/*Edit Modal*/
+#edit-node-modal .modal-dialog {
+    position: absolute;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#edit-node-modal .modal-content {
+    height: 100vh;
+    min-height: 100%;
+    border-radius: 0;
+}
